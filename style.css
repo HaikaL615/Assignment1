@@ -1,0 +1,86 @@
+* {
+  font-family: Arial;
+}
+
+div[class="Image"] {
+  float : left;
+  width: 60%;
+}
+
+div[class="Inputs"] {
+  width: 100%;
+}
+
+div[class="IIUM Logo"] {
+  margin-top: -190px;
+  margin-right: -250px;
+  float: right;
+  width: 40%;
+}
+
+div[class="Privacy"] {
+  margin-top: 90px;
+  float: right;
+}
+
+hr {
+  width: 75px;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 4px;
+  background-color: #00918e;
+  opacity: 0.5;
+}
+
+#IIUM_River {
+  clip-path: polygon(90% 50%, 0% 0, 0% 100%);
+
+}
+
+#Download {
+  font-size: 25px;
+  color: purple;
+  text-decoration: underline;
+}
+
+#Privacy {
+  color: #00918e;
+  text-decoration: none;
+}
+
+#Disclaimer {
+  color: #00918e;
+  text-decoration: none;
+}
+
+h2{
+  font-family: Arial;
+  font-size: 170%;
+}
+
+label{
+  font-family: Arial;
+}
+
+label[for="Login"]{
+  font-weight: bold;
+  font-size: 150%;
+}
+
+input[type="text"]{
+  padding:6px 93px;
+}
+
+input[type="text"]::placeholder{
+  text-align: left;
+}
+
+input.checkbox{
+  width: 15px;
+  height: 15px;
+}
+
+
+button{
+  padding: 10px 150px;
+}
